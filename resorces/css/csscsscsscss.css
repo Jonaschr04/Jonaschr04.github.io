@@ -2,45 +2,84 @@
 table, th, td {
   border: 1px solid black;
 }
+
 body {
 	background-color: gray;
 }
+
 body {
 	border: 3px solid yellow;
 }
+
 h1 {
 	color: yellow;
-}
-h1 {
 	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 	background-color: black;
 	border: 3px solid yellow;
-	width: 30%;
+	width: 45%;
 }
+
 div {
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
 }
+
 img {
 	border: 3px solid yellow;
 }
-h3 {
+
+h2 {
 	color: yellow;
+	font-family:monospace;
+	background-color: black; 
+	border: 3px solid yellow;
+	width: 30%;
 }
+
 th {
 	color: yellow;
 }
+
 ul {
 	background-color: green;
 	border: 3px solid yellow;
+	width: 27%;
 }
+
 table {
 	border: 3px solid yellow;
 }
-ul {
-	width: 27%;
-}
+
 html {
-	background-color: black;
+	background-color: black; 
 }
 
+footer {
+	text-align: center;
+	background-color: black;
+	color: white;
+}
 
+p {
+	color: white;
+}
+
+#bilde1 {
+	height: 300px;
+} 
+
+#bilde2 {
+	height: 300px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 6fr;
+  }
+  
+  .grid-item {
+    background-color:grey;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }

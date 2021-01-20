@@ -1,0 +1,5 @@
+#husqy701 {
+    width: 700px;
+    filter: grayscale(50%);
+    box-shadow: 50px 50px 10px gray;
+}

@@ -1,0 +1,40 @@
+body {
+  background-image: url(../images/Abstrakt\ wallpaper.jpg);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 6fr 2fr;
+  }
+  
+  .grid-item {
+    background-color:grey;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #bilde4 {
+    width:500px;
+  }
+
+  #bilde5 {
+    width:500px;
+  }
+
+  #bilde6 {
+    width:500px;
+  }
+
+  #bilde7 {
+    width:500px;
+  }
+
+  #bilde8 {
+    width:350px;
+  }
+
+  #bilde9 {
+    width:500px;
+  }
