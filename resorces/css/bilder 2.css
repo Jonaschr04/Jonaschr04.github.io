@@ -32,7 +32,7 @@ body {
     width:500px;
     box-shadow: 30px 30px 10px yellow;
     margin-right: 50px;
-}
+} 
 
 #bilde5 {
     width:500px;
@@ -58,7 +58,9 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-right: 0px;
 }
 
 .grid-container {
@@ -66,10 +68,15 @@ body {
     grid-template-columns: auto auto auto ;
   }
   
-  .grid-item {
+.grid-item {
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 30px;
     text-align: center;
     color: white;
   }
+
+#monogram {
+    width: 300px;
+    float: left;
+}
