@@ -4,7 +4,7 @@ table, th, td {
 }
 
 body {
-	background-color: gray;
+	background-image: url(../images/Background\ picture2.jpg);
 }
 
 body {
@@ -16,7 +16,7 @@ h1 {
 	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 	background-color: black;
 	border: 3px solid yellow;
-	width: 45%;
+	width: 30%;
 }
 
 div {
@@ -35,14 +35,23 @@ h2 {
 	width: 30%;
 }
 
+h3 {
+	color: white;
+	font-family:monospace;
+	background-color: black; 
+	border: 3px solid yellow;
+	width: 30%;
+}
+
 th {
 	color: yellow;
 }
 
 ul {
-	background-color: green;
+	color: white;
+	background-color: black;
 	border: 3px solid yellow;
-	width: 27%;
+	width: 715px;
 }
 
 table {
@@ -54,6 +63,7 @@ html {
 }
 
 footer {
+
 	text-align: center;
 	background-color: black;
 	color: white;
@@ -61,15 +71,15 @@ footer {
 
 p {
 	color: white;
+	background-color: black; 
+	border: 3px solid yellow;
+	width: 30%;
 }
 
-#bilde1 {
+#bilde {
 	height: 300px;
 } 
 
-#bilde2 {
-	height: 300px;
-}
 
 .grid-container {
     display: grid;
