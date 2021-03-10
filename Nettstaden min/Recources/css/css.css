@@ -82,21 +82,19 @@ li {
 }
 
 #honda {
-    width: 1256px;
+    width: 1500px;
 }
 
 #honda1 {
-    width: 1256px;
+    width: 1500px;
 }
 
 #honda2 {
-    width: 1256px;
-    float: right;
+    width: 1500px;
 }
 
 #honda3 {
-    width: 1256px;
-    float: right;
+    width: 1500px;
 }
 
 .topnav {
@@ -119,13 +117,14 @@ li {
     padding-left: 50px;
     font-size: 50px;
     padding-top: 40px;
-    padding-bottom: 0px;
+    padding-bottom: 45x;
     float: left;
 }
 
 .topnav a:hover {
     background-color: white;
     color: black;
+    margin-top: 35px;
 }
 
 footer {
