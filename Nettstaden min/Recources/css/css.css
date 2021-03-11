@@ -4,8 +4,7 @@ html {
 }
 
 body {
-    background-image: url(../images/background123.jpg);
-    background-repeat: no-repeat;
+    background-image: url(../images/Wallpaper\ \(1\).png);
     background-size: 3000px;
     border: 5px solid yellow;
 }
@@ -14,10 +13,15 @@ body {
     color: white;
 }
 
+.version {
+    float: right;
+    padding-bottom: 30px;
+}
+
 h1 {
     color: white;
     font-size: 50px;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 
 h2 {
@@ -27,7 +31,9 @@ h2 {
 }
 
 h3 {
-
+    color: white;
+    margin-left: 30px;
+    font-size: 21px;
 }
 
 p {
@@ -42,25 +48,42 @@ li {
     margin-left: 40px;
 }
 
+.li1 {
+    color: white;
+    font-size: 17px;
+}
+
 #megpåmotorsykkel {
     width: 300px;
+    margin-left: 30px;
 }
 
 .container {
     display: flex;
-    align-items: left;
+    align-items: center;
     justify-content: left;
+    border: 5px solid red;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-color: black;
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
 }
 
 .image {
     flex-basis: 10%
 }
 
-.text {
-}
-
 #nettsidelogo {
-    width: 150px;
+    width: 100px;
     float: left;
 }
 
@@ -69,11 +92,12 @@ li {
 }
 
 #austevoll {
-    width: 1000px;
+    height: 700px;
+    margin-left: 30px;
 }
 
 #austevoll1 {
-    width: 1000px;
+    height: 700px;
     float: right;
 }
 
@@ -97,6 +121,13 @@ li {
     width: 1500px;
 }
 
+.honda4 {
+    border: 5px solid red;
+    width: 1500px;
+    background-color: black;
+    margin-left: 30px;
+}
+
 .topnav {
     background-color: black;
     overflow: auto;
@@ -106,42 +137,137 @@ li {
     margin-top: 30px;
     margin-right: 30px;
     margin-left: 30px;
-    margin-bottom: 30px;
+    overflow: hidden;
 }
 
 .topnav a {
     color: #f2f2f2;
     text-align: center;
     text-decoration: none;
-    padding-right: 50px;
-    padding-left: 50px;
     font-size: 50px;
-    padding-top: 40px;
-    padding-bottom: 45x;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     float: left;
 }
 
 .topnav a:hover {
     background-color: white;
     color: black;
-    margin-top: 35px;
 }
 
 footer {
     color: white;
     background-color: black;
     text-align: center;
-    padding-bottom: 30px;
     font-size: 23px;
 }
 
 #clock {
     color: white;
-    font-size: 100px;
+    font-size: 70px;
     float: right;
-    margin-right: 100px;
+    margin-right: 20px;
 }
 .blogg {
     border: 5px solid red; 
     width: 1200px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: black;
+}
+
+.blogg1 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border: 5px solid purple;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-color: black;
+}
+
+.blogg2 {
+    border: 5px solid purple;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.blogg3 {
+    color: white;
+    border: 5px solid purple;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+
+
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 30px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    float: right;
+    margin-right: 30px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    z-index: 1;
+    display: none;
+    position: absolute; 
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 22px;
+    float: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: red;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color:red;
+}
+
+.updates {
+    width: 1200px;
+    border: 5px solid red;
+    background-color: black;
+    margin-top: 30px;
+    margin-left: 30px; 
+    margin-bottom: 30px;
+}
+
+.update1 {
+    border: 5px solid purple;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px  ;
 }
