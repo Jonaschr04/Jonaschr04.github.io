@@ -293,6 +293,7 @@ input {
     background-color: black;
     width: 800px;
     margin-left: 30px;
+    margin-top: 30px;
 }
 #submitbnt {
     color: white;
@@ -325,6 +326,8 @@ input {
     border: 5px solid red;
     background-color: black;
     width: 700px;
+    margin-left: 30px;
+    margin-top: 30px;
 }
 
 #month {
