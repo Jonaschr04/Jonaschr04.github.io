@@ -1,0 +1,144 @@
+body {
+    background-image: url(../images/abswallpaer.jpg);
+    width: auto;
+}
+
+#p {
+    color: white;
+}
+
+h3 {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+}
+
+#bilde1 {
+    width:500px; 
+    box-shadow: 30px 30px 10px orange;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border: 20px;
+}
+
+#bilde2 {
+    width:500px;
+    box-shadow: 30px 30px 10px blue;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+#bilde3 {
+    width:500px;
+    box-shadow: 30px 30px 10px green;
+    margin-bottom: 50px;
+}
+
+#bilde4 {
+    width:500px;
+    box-shadow: 30px 30px 10px yellow;
+    margin-right: 50px;
+} 
+
+#bilde5 {
+    width:500px;
+    box-shadow: 30px 30px 10px cyan;
+    margin-right: 50px;
+}
+
+#bilde6 {
+    width:500px;
+    box-shadow: 30px 30px 10px purple;
+     ;
+}
+
+.topnav {
+    background-color: black;
+    overflow: auto;
+    white-space: nowrap;
+    box-shadow: 0px 0px 12px 12px red;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-right: 0px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+}
+  
+.grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+#monogram {
+    width: 300px;
+    float: left;
+}
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 30px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    float: right;
+    text-align: center;
+    box-shadow: -3px 10px 5px 8px red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 20px;
+    box-shadow: 0px 0px 10px 10px red;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 30px;
+}
+
+.dropdown-content a:hover {
+    background-color: red;
+    box-shadow: 0px 0px 10px 3px white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color:red;
+}
+
+footer {
+    text-align: center;
+    padding-top: 25px;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+}
