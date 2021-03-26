@@ -14,10 +14,7 @@ function displayclock () {
         hrs = hrs - 12;
     }
 
-    if (hrs == 0) { 
-        hrs = 12;
-    }
 
+    if (hrs == 0) { 
     document.getElementById('clock').innerHTML = hrs + ':' + min + ':' +sec;
 }
-                                                                                                                           
