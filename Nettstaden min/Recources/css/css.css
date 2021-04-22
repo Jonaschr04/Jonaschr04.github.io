@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    background-image: url(../images/Wallpaper\ \(1\).png);
+    background-image: url(../images/background123.jpg);
     background-size: 3000px;
     border: 5px solid yellow;
 }
@@ -164,12 +164,6 @@ footer {
     font-size: 23px;
 }
 
-#clock {
-    color: white;
-    font-size: 70px;
-    float: right;
-    margin-right: 20px;
-}
 .blogg {
     border: 5px solid red; 
     width: 1200px;
