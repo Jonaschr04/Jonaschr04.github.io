@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title></title>
-        <meta charset="utf-8">
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Rock Paper Scissors</title>
+        <link rel="stylesheet" href="../css/rock paper.css">
         <link rel="stylesheet" href="../css/css.css">
+        <script src="../js/rock paper .js" defer></script>
     </head>
-    <body>
- 
+    <body> 
         <div class="topnav">
             <a class="active" href="../../../index.html">Home</a>
             <a href="../html/Austevoll.html">Austevoll</a>
@@ -14,9 +17,9 @@
             <a href="../html/Kontakt sjema.html">Kontakt skjema</a>
             <a href="../html/Din profil.html">Din profil</a>
             <a href="../html/Rock paper.html">Stein, saks, papir</a>
-        </div>
+        </div> 
 
-        <div class="dropdown"> 
+        <div class="dropdown">
             <button class="dropbtn">Kontakt Informasjon
                 <i class="fa fa-caret-down"></i>
             </button>
@@ -27,31 +30,23 @@
                 <a href="https://www.instagram.com/motorbike_life_04/">Instagram: motorbike_life_04</a>
                 <a href="https://www.facebook.com/jonas.christensen.353250/">Facebook: Jonas Christensen</a>
                 <a href="https://www.austevoll.kommune.no/">Home: Austevoll</a>
-            </div>
+            </div>    
         </div>
 
-
-        <div>
-            <h1>Austevoll</h1>
-        </div> 
-
-        <div>
-            <p>
-                Austevoll er ein litten øy utenfår Bergen og stord. <br>
-                Link til Austevoll kommune: <a id="austevollkom" href="https://www.austevoll.kommune.no/">Austevoll kommune</a>
-            </p>
+        <div class="selections">
+            <button class="selection" data-selection="rock">✊</button>
+            <button class="selection" data-selection="paper">✋</button>
+            <button class="selection" data-selection="scissors">✌</button>
         </div>
-
-        <div class="container">
-
+        <div class="results">
             <div>
-                <img id="austevoll1" src="../images/Globen austevoll.jpg">
+            You
+            <span class="result-score" data-your-score>0</span>
             </div>
-
-            <div>
-                <img id="austevoll" src="../images/Bekkjarvik_havn.jfif">
+            <div data-final-column>
+                    Computer
+                <span class="result-score" data-computer-score>0</span>
             </div>
-
         </div>
 
         <div class="footer">
@@ -59,8 +54,5 @@
             <h2>&#169; Jonas Christensen</h2> <br>
 
         </div>
-
-        <script src="../js/js.js"></script>
-
     </body>
-</html> 
+</html>
