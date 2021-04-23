@@ -1,12 +1,6 @@
 
-html {
-    background-color: black;
-}
-
 body {
-    background-image: url(../images/background123.jpg);
-    background-size: 3000px;
-    border: 5px solid yellow;
+    background-color: grey;
 }
 
 #austevollkom {
@@ -157,10 +151,14 @@ li {
     color: black;
 }
 
-footer {
+.footer {
     color: white;
     background-color: black;
     text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     font-size: 23px;
 }
 
