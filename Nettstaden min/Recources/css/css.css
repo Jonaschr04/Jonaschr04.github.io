@@ -82,7 +82,7 @@ li {
     align-items: center;
     justify-content: left;
     border: 5px solid red;
-    margin-left: 30px;
+    margin-left: 60px;
     margin-right: 30px;
     margin-bottom: 30px;
     background-color: black;
@@ -144,7 +144,7 @@ li {
     border: 5px solid red;
     width: 1500px;
     background-color: black;
-    margin-left: 30px;
+    margin-left: 60px;
 }
 
 .topnav {
