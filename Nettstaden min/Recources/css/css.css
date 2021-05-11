@@ -154,6 +154,7 @@ li {
     color: white;
     font-size: 40px;
     bottom: 0;
+    left: 0;
     width: 100%;
     font-size: 23px;
 }
@@ -215,7 +216,7 @@ li {
     display: block;
     font-size: 22px;
     float: none;
-}
+}   aawasdadw
 
 .dropdown:hover .dropdown-content {
     display: block;
